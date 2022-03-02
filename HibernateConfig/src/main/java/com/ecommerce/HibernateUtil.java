@@ -1,5 +1,7 @@
 package com.ecommerce;
 
+package com.ecommerce;
+
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
 import org.hibernate.boot.MetadataSources;
@@ -25,3 +27,5 @@ public class HibernateUtil {
                 return sessionFactory;
         }
 }
+
+
